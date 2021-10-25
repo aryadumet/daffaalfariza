@@ -7,7 +7,7 @@ Kursus Website, Digital Marketing, Mobile & Desain Grafis — Privat 1 Murid 1 I
 ## What You Will Learn
 - 25/10/2021 8:30PM, Flexbox.
 
-<p align="center"><a href="https://dumetschool.com" target="_blank"><img src="https://www.aryafebiyan.com/images-github/flexbox.png" width="450"></a></p>
+<p><a href="https://dumetschool.com" target="_blank"><img src="https://www.aryafebiyan.com/images-github/flexbox.png" width="450"></a></p>
 
 ## Developer
 
