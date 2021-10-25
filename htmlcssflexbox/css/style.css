@@ -1,0 +1,55 @@
+/* 25/10/2021 8:37PM */
+html { 
+    box-sizing: border-box;
+}
+
+/* 25/10/2021 8:37PM */
+*, *:before, *:after { 
+    box-sizing: inherit;
+}
+
+*{
+    box-sizing: border-box; /* 25/10/2021 8:37PM */
+    margin: 0;
+    padding: 0;
+}
+
+/* 25/10/2021 8:37PM */
+html, body {
+    height: 100%;
+}
+
+body{
+    font-family: arial;
+    font-size: 14px; /* 25/10/2021 8:37PM */
+    background-color: #f0f2f5;
+    display: flex; /* 25/10/2021 8:37PM */
+    align-items: center; /* 25/10/2021 8:37PM */
+    justify-content: center; /* 25/10/2021 8:37PM */
+}
+
+.container{
+    width: 500px;
+    background: #fff;
+    padding: 20px; /* 25/10/2021 8:37PM, equal to negative input's margin for mimic normal `div` box-sizing */
+}
+
+table{
+    width: 500px;
+    color: black;
+}
+
+input[type='email'], input[type='password']{
+    padding: 10px;
+    width: calc(100% - 40px); /* 25/10/2021 8:37PM, negative margin = border-width + horizontal padding */
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 10px 0; 
+    border: 1px solid #CFCFCF;
+}
+
+/* 25/10/2021 8:37PM */
+a{
+    color: #005A9C;
+    text-decoration: none; 
+}
