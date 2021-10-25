@@ -1,4 +1,4 @@
-<p align="center"><a href="https://doctype.id" target="_blank"><img src="https://www.dumetschool.com/assets/img/asset/logo.png" width="250"></a></p>
+<p align="center"><a href="https://dumetschool.com" target="_blank"><img src="https://www.aryafebiyan.com/logo-dumet-school.svg" width="250"></a></p>
 
 ## DUMET School
 
