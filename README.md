@@ -18,4 +18,4 @@ Kursus Website, Digital Marketing, Mobile & Desain Grafis — Privat 1 Murid 1 I
 
 ## Video on YouTube
 
-- **[23/10/2021 https://www.youtube.com/watch?v=ZgiVm5SIEyY] (https://www.youtube.com/watch?v=ZgiVm5SIEyY)**
+- **[23/10/2021 https://www.youtube.com/watch?v=ZgiVm5SIEyY](https://www.youtube.com/watch?v=ZgiVm5SIEyY)**
