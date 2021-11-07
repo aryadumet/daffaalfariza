@@ -8,22 +8,79 @@
     padding: 0;
 }
 
+.top-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.top-menu-contact {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu-contact > ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.top-menu-contact > ul > li > a {
+    text-decoration: none;
+    color: #0c71c4;
+}
+
+.top-menu-contact > ul > li > a > i {
+    padding-right: 3px;
+}
+
+.top-menu-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fa-instagram {
+    /* color: #D7407F; */
+    color: #909090;
+    font-size: 1.3rem;
+}
+
+.fa-facebook {
+    /* color: #1873EB; */
+    color: #909090;
+    font-size: 1.3rem;
+}
+
+.fa-twitter {
+    /* color: #1C9CEA; */
+    color: #909090;
+    font-size: 1.3rem;
+}
+
+.fa-youtube {
+    /* color: #F70000; */
+    color: #909090;
+    font-size: 1.3rem;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
+    background-color: #24292F;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    padding: 25px 0;
+    padding: 16px 0;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    flex: 1;
+    flex: 1.2;
 }
 
 .logo > img {
@@ -44,14 +101,66 @@
 
 .menu-link > ul > li > a {
     text-decoration: none;
-    color: #313131;
+    color: #CCCCCC;
 }
 
 .menu-link > ul > li > a.active {
     font-weight: 700;
-    color: #121212;
+    color: #FFFFFF;
+}
+
+.menu-button {
+    display: flex;
+    flex: 2;
+    justify-content: end;
+    align-items: center; 
+}
+
+.sign-in {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #313131;
+    margin-right: 5px;
+}
+
+.sign-up {
+    text-decoration: none;
+    background-color: #028802;
+    border: 1px solid #028802;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
 .pl-15 {
     padding-left: 15px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+.pr-3 {
+    padding-right: 3px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.header {
+    background: url(../assets/header/background.png) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
