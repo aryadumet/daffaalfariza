@@ -155,11 +155,106 @@
 
 .header {
     background: url(../assets/header/background.png) no-repeat center center;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.header-content-heading {
+    padding-left: 0;
+}
+
+.header-content-heading h1 {
+    font-size: 75px;
+    line-height: 70px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.header-content-heading p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.header-content-menu {
+    margin-top: 42px;
+}
+
+.appointment {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 13px 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #1E5CC7;
+    margin-right: 5px;
+}
+
+.learn-more {
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    padding: 13px 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.header-information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 250px;
+    border-radius: 12px;
+    background: url(../assets/header/map.png) no-repeat center center;
+    background-size: cover;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -65px;
+}
+
+.header-information > div i {
+    color: #0046C0;
+}
+
+.header-information-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-information-box-count {
+    font-size: 50px;
+    color: #0046C0;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.header-information-box-title {
+    color: #385060;
+    font-weight: 500;
+}
+
+.header-content-image {
+    
+}
+
+.about {
     display: flex;
     justify-content: space-between;
     width: 80%;
